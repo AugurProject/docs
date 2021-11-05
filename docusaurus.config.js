@@ -48,8 +48,14 @@ const config = {
         items: [
           {
             to: '/',
-            activeBasePath: 'docs',
+            activeBasePath: '/',
             label: 'Overview',
+            position: 'left'
+          },
+          {
+            to: '/v1',
+            activeBasePath: '/',
+            label: 'Augur V1',
             position: 'left'
           },
           {
