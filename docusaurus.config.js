@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Augur'
+  title: 'Augur Docs',
   tagline: 'Overview of all Augur Resources',
   url: 'https://docs.augur.net',
   baseUrl: '/',
