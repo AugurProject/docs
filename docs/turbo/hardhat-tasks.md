@@ -1,5 +1,6 @@
 ---
 title: Hardhat Tasks
+sidebar_position: 5
 ---
 
 # Hardhat Tasks

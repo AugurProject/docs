@@ -1,6 +1,6 @@
 ---
 title: Contract Overview
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Augur Turbo's contracts are structured such that they are mostly independent.
