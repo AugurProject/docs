@@ -1,6 +1,6 @@
 ---
 title: Hardhat Tasks
-slug: /tasks
+slug: /turbo/tasks
 ---
 
 # Hardhat Tasks

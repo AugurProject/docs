@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-slug: /
+slug: /turbo/getting-started
 ---
 
 # How To Use

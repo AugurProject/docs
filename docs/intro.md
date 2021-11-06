@@ -19,7 +19,7 @@ Augur is a decentralized prediction market Platform for Ethereum and EVM compati
 [See resources for Augur v2](/v2)
 
 ### Augur Turbo
-[Augur Turbo](/Turbo) is the most recent deployment of Augur designed specficially for recurring markets like sports, crypto, economics, and politics. Turbo offers an intuitive user interface built on top of Balancer AMMs on Polygon to leverage the nearly-zero transaction fee. Markets are automatically created and resolved at periodic intervals using Chainlink data without any user input, thus enabling daily and fast-resolving markets for sports and crypto. It uses USDC as it's trading currency and wMatic as rewards for liquidity mining.
+[Augur Turbo](/turbo) is the most recent deployment of Augur designed specficially for recurring markets like sports, crypto, economics, and politics. Turbo offers an intuitive user interface built on top of Balancer AMMs on Polygon to leverage the nearly-zero transaction fee. Markets are automatically created and resolved at periodic intervals using Chainlink data without any user input, thus enabling daily and fast-resolving markets for sports and crypto. It uses USDC as it's trading currency and wMatic as rewards for liquidity mining.
 
 [See resources for Augur Turbo](/turbo)
 
