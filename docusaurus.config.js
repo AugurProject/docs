@@ -26,7 +26,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/AugurProject/docs/edit/main/website/',
+          editUrl: 'https://github.com/AugurProject/docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,10 +53,9 @@ const config = {
             position: 'left'
           },
           {
-            to: '/v1',
-            activeBasePath: '/',
-            label: 'Augur V1',
-            position: 'left'
+            href: 'https://help.augur.net',
+            label: 'Help',
+            position: 'right',
           },
           {
             href: 'https://github.com/AugurProject/docs',

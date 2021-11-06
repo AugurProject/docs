@@ -1,5 +1,5 @@
 ---
-title: Augur
+title: Introduction
 sidebar_position: 1
 slug: /
 ---
@@ -25,3 +25,5 @@ Augur is a decentralized prediction market Platform for Ethereum and EVM compati
 
 ### Sportsbook
 Sportsbook is a second UI for the Turbo contracts. It is designed specifially for sports bettors and attempts to simplify crypto-specific and trading-specific UX for that user. It also includes an Odds Converter to help users convert and compare odds according to their preference.
+
+[See resources for Sportsbook](/turbo)

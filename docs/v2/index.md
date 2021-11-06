@@ -1,5 +1,6 @@
 ---
-title: Augur v2
+title: Resources
+sidebar_position: 1
 slug: /v2
 ---
 
@@ -8,7 +9,7 @@ slug: /v2
 
 ## Resources
 ### Documentation
-https://docs.augur.sh/
+- [Contract Overview](/v2/contract-overview)
 
 ### Git
 - [Augur v2 Smart Contracts](https://github.com/AugurProject/augur)

@@ -1,5 +1,5 @@
 ---
-title: Augur Turbo
+title: Resources
 sidebar_position: 1
 slug: /turbo
 ---
@@ -9,10 +9,14 @@ slug: /turbo
 
 ## Resources
 ### Documentation
-[Turbo Contracts](/turbo)
+- [Contract Overview](/turbo/contract-overview)
+- Readmes for each of the UIs are available in their corresponding gitub package
 
 ### Git
-- [Augur Turbo Smart Contracts](https://github.com/AugurProject/turbo)
+- [Smart Contracts](https://github.com/AugurProject/turbo/tree/dev/packages/smart)
+- [Turbo UI](https://github.com/AugurProject/turbo/tree/dev/packages/simplified)
+- [Sportbook UI](https://github.com/AugurProject/turbo/tree/dev/packages/sport)
 
 ### Help Docs
-https://help.augur.net/
+These user-facing docs are maintained in Gitbook
+- https://help.augur.net/
