@@ -1,6 +1,6 @@
 ---
 title: Contract API
-slug: /turbo/contract-api
+sidebar_position: 3
 ---
 
 # Augur Turbo - Contract API

@@ -1,6 +1,6 @@
 ---
-title: Turbo Contract Overview
-slug: /contract-overview
+title: Contract Overview
+sidebar_position: 2
 ---
 
 Augur Turbo's contracts are structured such that they are mostly independent.
