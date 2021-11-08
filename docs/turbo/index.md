@@ -10,12 +10,13 @@ slug: /turbo
 ## Resources
 ### Documentation
 - [Contract Overview](/turbo/contract-overview)
-- Readmes for each of the UIs are available in their corresponding gitub package
+- See the Git section below for readmes for each of the Augur UI's.
 
 ### Git
 - [Smart Contracts](https://github.com/AugurProject/turbo/tree/dev/packages/smart)
 - [Turbo UI](https://github.com/AugurProject/turbo/tree/dev/packages/simplified)
 - [Sportbook UI](https://github.com/AugurProject/turbo/tree/dev/packages/sport)
+- [Augur Comps](https://github.com/AugurProject/turbo/tree/dev/packages/simplified)
 
 ### Help Docs
 These user-facing docs are maintained in Gitbook
