@@ -1,5 +1,5 @@
 ---
-title: Augur v1
+title: Resources
 sidebar_position: 2
 ---
 
@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ## Resources
 ### Documentation
-https://v1-docs.augur.net
+- Legacy Docs: https://v1-docs.augur.net
 
 ### Git
-- [Augur Smart Contracts](https://github.com/AugurProject/augur-core)
+- [Augur v1 Smart Contracts](https://github.com/AugurProject/augur-core)

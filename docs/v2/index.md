@@ -14,6 +14,9 @@ slug: /v2
 ### Git
 - [Augur v2 Smart Contracts](https://github.com/AugurProject/augur)
 
-### Help Docs
-Docs:
-Repository: https://github.com/AugurProject/augur/tree/documentation/docs
+### End-user help Docs
+These user-facing docs are maintained in Gitbook.
+- https://augur.gitbook.io/help-center/
+
+
+
