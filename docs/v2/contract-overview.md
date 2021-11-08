@@ -537,7 +537,9 @@ When the Dispute Window has ended these tokens may be redeemed in order to recei
 
 When the window is no longer active if a user with 10 Participation tokens then redeems them they will receive both the 10 REP they used to purchase them and 1 DAI in fees.
 
-## GSN
+## GSN (*deprecated*)
+
+***Please NOTE the GSN and Augur Wallet are no longer functional or supported in the current version of v2. Documentation left below for context***
 
 As likely anyone reading this is aware, transactions on Ethereum cost ETH to send. This is a problem for onboarding users and in general for explaining to people who simply want to engage with an application as if they were only using US dollars.
 
