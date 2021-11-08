@@ -9,7 +9,7 @@ slug: /v2
 
 ## Resources
 ### Whitepaper
-- [v2 Whitepaper] (https://github.com/AugurProject/whitepaper/releases/latest/download/augur-whitepaper-v2.pdf)
+- [v2 Whitepaper](https://github.com/AugurProject/whitepaper/releases/latest/download/augur-whitepaper-v2.pdf)
 
 ### Documentation
 - [Contract Overview](/v2/contract-overview)
