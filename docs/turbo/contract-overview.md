@@ -95,7 +95,14 @@ Note that crypto markets do not have an invalid outcome and always start at a
 price ratio of 50:50, but still use BalancerV1 AMMs. There's no deep reason:
 it's easy to use the existing infrastructure needed for the sports markets.
 
-TODO rewards
+In an attempt to offset impermanent loss, a rewards contract is provided 
+whose purpose is to give incentive liquidity providers. The contract is a highly
+modified version of the MasterChef contract provided by SushiSwap. It can be used
+to distribute any ERC20 token as a reward. This is distributed based on percentage
+of stake in the pool a given account has. Rewards are paid out over a predetermined 
+period of time which is set on a per event/pool basis. There is also an incentive 
+available for early liquidity providers who join within the first 10% of the reward
+window. Both of these amounts must be set per market factory or will default to 0.
 
 This concludes the overview of trading and rewards. Finally, there's the FeePot
 contract.
