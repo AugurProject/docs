@@ -19,6 +19,7 @@ Sportsbook is a second UI for the Turbo contracts. It is designed specifially fo
 - [Turbo UI](https://github.com/AugurProject/turbo/tree/dev/packages/simplified)
 - [Sportbook UI](https://github.com/AugurProject/turbo/tree/dev/packages/sport)
 - [Augur Comps](https://github.com/AugurProject/turbo/tree/dev/packages/simplified)
+- [Augur Subgraph](https://github.com/AugurProject/turbo/tree/dev/packages/subgraph)
 
 ### End-user help Docs
 These user-facing docs are maintained in Gitbook.
