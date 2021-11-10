@@ -305,17 +305,17 @@ This order could escrow any of the following combination of assets to cover this
 
 | **DAI** | **NO / INVALID SHARES** | **DAI Received** | **YES SHARES Received** |
 | :--- | :--- | :--- | :--- |
-| $$60*10^{19} $$ | $$0$$ | $$0$$ | $$10^{19} $$ |
-| $$0$$ | $$10^{19} $$ | $$40 * 10^{19}$$ | $$0$$ |
-| $$5*60*10^{18} $$ | $$5*10^{18}$$ | $$5*40*10^{18} $$ | $$5*10^{18} $$ |
+| $60*10^{19}$ | $0$ | $0$ | $10^{19}$ |
+| $0$ | $10^{19}$ | $40 * 10^{19}$ | $0$ |
+| $5 * 60 * 10^{18}$ | $5 * 10^{18}$ | $5 * 40 * 10^{18}$ | $5 * 10^{18}$ |
 
 If the order had been an ASK instead of a bid, or equivalently if we are observing the asset requirements of the party filling the order, examples of the assets that could be used are:
 
 | **DAI** | **YES SHARES** | **DAI Received** | **NO / INVALID SHARES Received** |
 | :--- | :--- | :--- | :--- |
-| $$40 * 10^{19}$$  | $$0$$ | $$0$$ | $$10^{19} $$  |
-| $$0$$ | $$10^{19} $$ | $$60*10^{19} $$ | $$0$$ |
-| $$5*40*10^{18} $$ | $$5*10^{18}$$ | $$5*60*10^{18} $$ | $$5*10^{18} $$ |
+| $40 * 10^{19}$  | $0$ | $0$ | $10^{19}$  |
+| $0$ | $10^{19}$ | $60*10^{19}$ | $0$ |
+| $5*40*10^{18}$ | $5*10^{18}$ | $5*60*10^{18}$ | $5*10^{18}$ |
 
 The trading contracts will always prioritize using a user’s Shares over using their DAI.
 
@@ -468,9 +468,11 @@ Dispute crowdsourcing have a “size” which represents the amount of REP which
 
 This size is calculated with the following formula:
 
-```text
-size = 2*stake_in_all_payouts - 3*stake_in_payout_being_asserted
-```
+$$
+s_a = \text{Stake in all payouts}\\
+s_b = \text{Stake in payout being asserted}\\
+size = 2 * s_a - 3 * s_b
+$$
 
 This formula guarantees that the profit from correctly staking REP is 50% of what is staked by the winning contributors. The actual profit for disputers as described in the first Reporting section is 40% since the remaining 10% of that initial 50% profit is burned.
 
@@ -575,9 +577,10 @@ In order to make a faster and more robust method for pulling historical data the
 
 The key component of the Warp Sync feature is the ability to trustlessly verify the hash of the Warp Sync file. In order to do this Augur has a built in feature where a recurring Warp Sync Hash prediction market can be created by any user in exchange for an increasing reward of minted REP. The formula for how much attoREP they will receive is as follows:
 
-```text
-(time_since_create ** 3) * 1000
-```
+$$
+t_c = \text{Time since creation}\\
+t_c^3 * 1000
+$$
 
 This provides an exponential growth amount that will also not get out of control in a time span that is manipulatable via block stuffing.
 
