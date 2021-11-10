@@ -6,9 +6,9 @@ title: Contract Overview
 
 The Augur contract is the first contract in any deployment and serves as:
 
-* The central registry for singleton contracts
-* The central authority for which contracts are considered “legitimate” Augur members as opposed to external contracts
-* A global contract per deployment for logging, token transfers, and limits on market creation end times
+* The central registry for singleton contracts.
+* The central authority for which contracts are considered “legitimate,” trusteded, Augur core contracts as opposed to external contracts.
+* A global contract per deployment for logging, token transfers, and limits on market creation end times.
 
 ### Deployment
 
