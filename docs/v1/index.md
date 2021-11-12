@@ -1,6 +1,7 @@
 ---
 title: Resources
 sidebar_position: 2
+slug: /v1
 ---
 
 ## About
