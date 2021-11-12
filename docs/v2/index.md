@@ -13,6 +13,7 @@ slug: /v2
 
 ### Documentation
 - [Contract Overview](/v2/contract-overview)
+- [SDK / Flash Usage](/v2/flash)
 
 ### Git
 - [Augur v2 Smart Contracts](https://github.com/AugurProject/augur)
