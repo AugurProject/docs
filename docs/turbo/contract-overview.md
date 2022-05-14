@@ -96,7 +96,7 @@ price ratio of 50:50, but still use BalancerV1 AMMs. There's no deep reason:
 it's easy to use the existing infrastructure needed for the sports markets.
 
 In an attempt to offset impermanent loss, a rewards contract is provided 
-whose purpose is to give incentive liquidity providers. The contract is a highly
+whose purpose is to give incentive to liquidity providers. The contract is a highly
 modified version of the MasterChef contract provided by SushiSwap. It can be used
 to distribute any ERC20 token as a reward. This is distributed based on percentage
 of stake in the pool a given account has. Rewards are paid out over a predetermined 
@@ -112,4 +112,4 @@ secure backstop in case of bad market resolution. That functionality hasn't
 been implemented yet so the fee that would go to the FeePot is set to zero.
 
 So long as AugurV2 (on Ethereum mainnet) never forks, there will only ever need
-to be one FeePot contract. If it works then a new FeePot must be deployed.
+to be one FeePot contract. If it forks then a new FeePot must be deployed.
